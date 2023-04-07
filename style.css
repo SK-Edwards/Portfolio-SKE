@@ -1,0 +1,218 @@
+.container{
+background-image:url(./images/pexels-photo-96381.webp);
+min-height: 100%;
+}
+.page{
+  position: absolute;
+  min-height: 100%;
+   position: relative;
+
+}
+
+.header{ 
+  display: flex;
+  justify-content: space-between;
+  min-height: 200px;
+  width: 100%; border-bottom: 30px solid steelblue;
+}
+
+.logo{ 
+width:200px;
+height: 200px;
+}
+.header ul{
+  font-size: 25px;
+  font-style: italic;
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly ;
+  margin:10px%;
+}
+.header ul li{
+  color: rgb(252, 206, 0);
+  margin-bottom: 170px;
+} 
+
+.header ul li:hover{ 
+color: rgb(43, 0, 61);
+background-color:  rgb(252, 206, 0);
+}
+.header ul button{
+  cursor: grab;
+  position:absolute;;
+  height: 70px;
+  width: 120px;
+  border-radius: 25px;
+  margin-top: 140px;
+  font-size: 20px;
+  font-weight: bold;
+
+  ;
+}
+
+.header h1{
+  color: rgb(252, 206, 0) ;
+  font-family:cursive;
+  font-size:45px;
+}
+.header ul button:hover{
+  height: 80px;
+  width:130px;
+  color:rgb(69, 2, 91);
+  background-color: rgb(252, 206, 0);
+  font-size: 20px;
+ 
+
+}
+
+.box1{
+  width:100%;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+}
+
+.box1 h1{width:200px;
+  height: 100px;
+  margin: 20px;
+  border-right: 10px solid steelblue;
+  padding: 30px;
+  margin-left: 0%;
+  align-self: flex-start;
+  color: rgb(252, 206, 0);
+}
+.box1 p{
+width: 800px;
+height:300px;
+font-size:22px;
+margin-right: 0%;
+padding-top: 50px;
+color: rgb(252, 206, 0);
+font-weight:600;
+
+}
+
+.box2{
+ width:100%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+
+}
+.box2 h1{ 
+  width: 200px;
+  height: 500px;
+  margin: 20px;
+  border-right: 10px solid steelblue;
+  padding: 30px;
+  margin-left: 0%;
+  align-self: flex-start;
+  color: rgb(252, 206, 0);
+
+}
+.box2 h2{
+  width:70%;
+  background-image: url(./images/Portfolio.avif);
+}
+.box2 h2 button{
+  width: 100px;
+  height: 50px;
+  border-radius: 25%;
+
+
+}
+.box2 h2 button:hover{ 
+  color:rgb(52, 3, 90);
+  background-color: rgb(252, 206, 0);
+  font-size: 20px;
+
+}
+
+.box3{
+  width:100%;
+  height: 300px;
+  display:flex;
+  float: inline-start;
+  position:absolute;
+  flex-direction: row;
+  justify-content:space-between;
+}
+.box3 h1{
+  width: 200px;
+  height:200px;
+  margin: 20px;
+  border-right: 10px solid steelblue;
+  padding: 30px;
+  margin-left: 0%;
+  align-self: flex-start;
+  color: rgb(252, 206, 0);
+} 
+.box3 h2{
+  width: 200px;
+background-image: url(./images/pexels-photo.jpg);
+}
+
+.box3 h2 button{
+  height: 30px;
+  width: 80px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.box3 h2 button:hover{
+  height: 40px;
+  width: 90px;
+  color: rgb(36, 0, 69);
+  background-color:rgb(252, 206, 0) ;
+
+}
+
+
+.foot{
+  bottom: 0%;
+  display: flex;
+  color: rgb(252, 206, 0);
+  min-height: 100px;
+  width:85%;
+  font-size: 35px;
+  margin:auto 0;
+  padding: 0% ;
+  border: 0%;}
+
+.foot ul{ width: 800px;
+  font-size: 30px;
+  font-weight: bold;
+  justify-content: space-between;
+ 
+}
+.foot h1{
+  font-size: 30px;
+  width: 200px;
+  height:200px;
+  margin: 20px;
+  border-right: 10px solid steelblue;
+  padding: 30px;
+  margin-left: 0%;
+  color: rgb(252, 206, 0);
+
+}
+
+.foot ul li{
+    display: inline;
+    flex-direction: row;
+    margin-right:20px;
+    justify-content:space-between;
+   background-color: aqua;
+}
+.footer{padding-top: 300px;
+position: relative;;
+  height: 100px; 
+  margin-top: 50px;
+  bottom: 0px;
+}
+
+.foot ul li:hover{
+background-color: darkgreen ;
+}
